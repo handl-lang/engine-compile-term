@@ -1,0 +1,19 @@
+[workspace]
+resolver = "3"
+members = ["modules/compile-term"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/handl-lang/term"
+
+# ADR-0128 §Resolution: [patch] resolves the sibling checkout locally;
+# CI resolves the pinned git revs.
+[patch."https://github.com/handl-lang/platform"]
+handl-kit-arrow-lower = { path = "../platform/crates/handl-kit-arrow-lower" }
+handl-plugin-compile = { path = "../platform/crates/plugin-compile" }
+plugin-engine = { path = "../platform/crates/plugin-engine" }
+
+[profile.dev]
+opt-level = 1

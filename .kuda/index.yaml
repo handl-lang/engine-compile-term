@@ -1,0 +1,28 @@
+name: term
+root: /home/luis/GitHub/handl-lang/term
+purpose: ''
+modules:
+- compile-term
+- handl-plugin-compile-term
+- term
+commands:
+- cargo check
+- cargo test --workspace
+provenance:
+  files:
+  - Cargo.toml
+  - modules/compile-term/Cargo.toml
+  - modules/compile-term/src/output.rs
+  - modules/compile-term/src/compiler.rs
+  - modules/compile-term/src/config.rs
+  - modules/compile-term/src/lib.rs
+  hashes:
+  - 1022a3a836f95eae5a1b28ce66b84099d4f377a0
+  - 0dbf3656e4db32392d79dd5aee0f6e553f656445
+  - d88c397c356f8a85210e7c25281b05e4ac4d8a37
+  - f4ce351ef1b3f66de2fe2b4958057161502d1d11
+  - 5dbc68048ed74af2cbab48a062acf009325e2d0c
+  - 95974bababaeac9afa4e86b2ea41260572540ea6
+  commit_sha: 82c1c3695d1d79e8704f6daaa4e03b82933f3444
+  generated_at: '1792281254'
+  generator: kuda/0.1.0

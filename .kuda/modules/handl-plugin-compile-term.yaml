@@ -1,0 +1,24 @@
+name: handl-plugin-compile-term
+path: modules/compile-term/Cargo.toml
+purpose: Term JSON compiler for canonical Handl sources (ADR-0114).
+api:
+- name: handl-plugin-compile-term
+  kind: module
+  file: modules/compile-term/Cargo.toml
+  line: 1
+  module: handl-plugin-compile-term
+deps:
+- handl-kit-arrow-lower
+- handl-plugin-compile
+- serde_json
+notes: ''
+verify:
+- modules/compile-term/Cargo.toml
+provenance:
+  files:
+  - modules/compile-term/Cargo.toml
+  hashes:
+  - 0dbf3656e4db32392d79dd5aee0f6e553f656445
+  commit_sha: 82c1c3695d1d79e8704f6daaa4e03b82933f3444
+  generated_at: '1792281254'
+  generator: kuda-template/0.1.0

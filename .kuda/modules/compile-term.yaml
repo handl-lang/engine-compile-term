@@ -1,0 +1,140 @@
+name: compile-term
+path: modules/compile-term/src/output.rs
+purpose: compile-term
+api:
+- name: TermOutput
+  kind: type
+  file: modules/compile-term/src/output.rs
+  line: 9
+  module: compile-term
+- name: new
+  kind: function
+  file: modules/compile-term/src/output.rs
+  line: 16
+  module: compile-term
+- name: target
+  kind: function
+  file: modules/compile-term/src/output.rs
+  line: 25
+  module: compile-term
+- name: artifacts
+  kind: function
+  file: modules/compile-term/src/output.rs
+  line: 29
+  module: compile-term
+- name: stream
+  kind: function
+  file: modules/compile-term/src/output.rs
+  line: 33
+  module: compile-term
+- name: TermCompiler
+  kind: type
+  file: modules/compile-term/src/compiler.rs
+  line: 11
+  module: compile-term
+- name: compile
+  kind: function
+  file: modules/compile-term/src/compiler.rs
+  line: 14
+  module: compile-term
+- name: target
+  kind: function
+  file: modules/compile-term/src/compiler.rs
+  line: 36
+  module: compile-term
+- name: TermConfig
+  kind: type
+  file: modules/compile-term/src/config.rs
+  line: 9
+  module: compile-term
+- name: new
+  kind: function
+  file: modules/compile-term/src/config.rs
+  line: 16
+  module: compile-term
+- name: as_any
+  kind: function
+  file: modules/compile-term/src/config.rs
+  line: 22
+  module: compile-term
+- name: target
+  kind: function
+  file: modules/compile-term/src/config.rs
+  line: 26
+  module: compile-term
+- name: compiler
+  kind: module
+  file: modules/compile-term/src/lib.rs
+  line: 6
+  module: compile-term
+- name: config
+  kind: module
+  file: modules/compile-term/src/lib.rs
+  line: 7
+  module: compile-term
+- name: output
+  kind: module
+  file: modules/compile-term/src/lib.rs
+  line: 8
+  module: compile-term
+deps:
+- handl_plugin_compile
+- handl_kit_arrow_lower
+- handl_plugin_compile
+- handl_plugin_compile
+- compiler
+- config
+- output
+notes: ''
+verify:
+- modules/compile-term/src/output.rs
+- modules/compile-term/src/output.rs
+- modules/compile-term/src/output.rs
+- modules/compile-term/src/output.rs
+- modules/compile-term/src/output.rs
+- modules/compile-term/src/compiler.rs
+- modules/compile-term/src/compiler.rs
+- modules/compile-term/src/compiler.rs
+- modules/compile-term/src/config.rs
+- modules/compile-term/src/config.rs
+- modules/compile-term/src/config.rs
+- modules/compile-term/src/config.rs
+- modules/compile-term/src/lib.rs
+- modules/compile-term/src/lib.rs
+- modules/compile-term/src/lib.rs
+provenance:
+  files:
+  - modules/compile-term/src/output.rs
+  - modules/compile-term/src/output.rs
+  - modules/compile-term/src/output.rs
+  - modules/compile-term/src/output.rs
+  - modules/compile-term/src/output.rs
+  - modules/compile-term/src/compiler.rs
+  - modules/compile-term/src/compiler.rs
+  - modules/compile-term/src/compiler.rs
+  - modules/compile-term/src/config.rs
+  - modules/compile-term/src/config.rs
+  - modules/compile-term/src/config.rs
+  - modules/compile-term/src/config.rs
+  - modules/compile-term/src/lib.rs
+  - modules/compile-term/src/lib.rs
+  - modules/compile-term/src/lib.rs
+  hashes:
+  - d88c397c356f8a85210e7c25281b05e4ac4d8a37
+  - d88c397c356f8a85210e7c25281b05e4ac4d8a37
+  - d88c397c356f8a85210e7c25281b05e4ac4d8a37
+  - d88c397c356f8a85210e7c25281b05e4ac4d8a37
+  - d88c397c356f8a85210e7c25281b05e4ac4d8a37
+  - f4ce351ef1b3f66de2fe2b4958057161502d1d11
+  - f4ce351ef1b3f66de2fe2b4958057161502d1d11
+  - f4ce351ef1b3f66de2fe2b4958057161502d1d11
+  - 5dbc68048ed74af2cbab48a062acf009325e2d0c
+  - 5dbc68048ed74af2cbab48a062acf009325e2d0c
+  - 5dbc68048ed74af2cbab48a062acf009325e2d0c
+  - 5dbc68048ed74af2cbab48a062acf009325e2d0c
+  - 95974bababaeac9afa4e86b2ea41260572540ea6
+  - 95974bababaeac9afa4e86b2ea41260572540ea6
+  - 95974bababaeac9afa4e86b2ea41260572540ea6
+  commit_sha: 82c1c3695d1d79e8704f6daaa4e03b82933f3444
+  generated_at: '1792281254'
+  generator: kuda-template/0.1.0

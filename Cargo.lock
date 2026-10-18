@@ -50,6 +50,7 @@ dependencies = [
 [[package]]
 name = "handl-language"
 version = "0.1.0"
+source = "git+https://github.com/handl-lang/kernel?branch=main#c9016ab25312ced6767bc06117491239b4487bb2"
 dependencies = [
  "plugin-engine",
  "serde",

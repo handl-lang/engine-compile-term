@@ -14,7 +14,7 @@ compiler among several.
 `term`), which lowers canonical Handl sources to `Term` JSON — here as
 `modules/compile-term`.
 
-`platform` keeps the port and the registry seam.
+`host` keeps the port and the registry seam.
 
 ## Consequences
 

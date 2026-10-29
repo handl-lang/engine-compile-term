@@ -1,3 +1,10 @@
+---
+title: '`compile-term` target'
+type: adr
+date: 2026-10-16
+status: accepted
+---
+
 # ADR-0140: `compile-term` target
 
 ## Context

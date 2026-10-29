@@ -1,3 +1,9 @@
+---
+title: Task 0128 — `term/` extraction (ADR-0128 Phase 7)
+type: task
+date: 2026-10-16
+---
+
 # Task 0128 — `term/` extraction (ADR-0128 Phase 7)
 
 Expand ADR-0128 Phase 7 for this repo. The docs are already on

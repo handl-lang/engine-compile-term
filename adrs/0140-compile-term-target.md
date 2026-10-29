@@ -3,6 +3,7 @@ title: '`compile-term` target'
 type: adr
 date: 2026-10-16
 status: accepted
+status_note: Accepted — extracted in ADR-0128 Phase 7.
 ---
 
 # ADR-0140: `compile-term` target
@@ -29,7 +30,3 @@ compiler among several.
 - This is the reference lowering that the other targets (`dot`, `sexp`,
   `handl`) read, so its `Term` shape is a cross-repo interface — changes to it
   are multi-repo changes plus a rev bump (ADR-0128 §Costs).
-
-## Status
-
-Accepted — extracted in ADR-0128 Phase 7.

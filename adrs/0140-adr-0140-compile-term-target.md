@@ -1,3 +1,10 @@
++++
+id = "ADR-0140"
+title = "ADR-0140: `compile-term` target"
+status = "open"
+priority = "medium"
++++
+
 ---
 title: '`compile-term` target'
 type: adr

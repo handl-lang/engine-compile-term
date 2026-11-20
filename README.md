@@ -1,6 +1,6 @@
-# compile-term
+# engine-compile-term
 
-Term JSON compiler for canonical Handl sources — part of the `compile-*`
+Term JSON compiler for canonical Handl sources — part of the `engine-compile-*`
 compiler-backend family: lowers canonical Handl sources to the `Term`
 arrow IR and emits its JSON form.
 

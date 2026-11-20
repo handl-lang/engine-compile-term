@@ -5,6 +5,9 @@ edition.workspace = true
 description = "Term JSON compiler for canonical Handl sources (ADR-0114)."
 license.workspace = true
 repository.workspace = true
+readme = "../../README.md"
+keywords = ["handl", "term", "compiler", "arrow-calculus"]
+categories = ["compilers"]
 
 [dependencies]
 handl-plugin-compile = { git = "https://github.com/handl-lang/host", branch = "main" }

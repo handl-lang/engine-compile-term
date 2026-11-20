@@ -18,6 +18,7 @@ opt-level = 1
 hnl-engine = { path = "../engine" }
 
 [patch."https://github.com/handl-lang/kernel"]
+handl-calculus = { path = "../kernel/crates/handl-calculus" }
 
 [patch."https://github.com/handl-lang/host"]
 handl-kit-arrow-lower = { path = "../host/crates/handl-kit-arrow-lower" }

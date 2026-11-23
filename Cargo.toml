@@ -23,3 +23,6 @@ handl-calculus = { path = "../kernel/crates/handl-calculus" }
 [patch."https://github.com/handl-lang/host"]
 handl-kit-arrow-lower = { path = "../host/crates/handl-kit-arrow-lower" }
 handl-plugin-compile = { path = "../host/crates/plugin-compile" }
+
+[patch."https://github.com/handl-lang/engine-codegen"]
+hnl-engine-codegen = { path = "../engine-codegen" }

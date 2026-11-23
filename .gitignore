@@ -2,3 +2,5 @@
 /project/
 xtask/target/
 .kuda/
+/Cargo.lock
+/.cargo/

@@ -11,5 +11,6 @@ categories = ["compilers"]
 
 [dependencies]
 handl-plugin-compile = { git = "https://github.com/handl-lang/host", branch = "main" }
-handl-kit-arrow-lower = { git = "https://github.com/handl-lang/host", branch = "main" }
 serde_json = "1"
+handl-calculus = { git = "https://github.com/handl-lang/kernel", branch = "main" }
+hnl-engine-codegen = { path = "../../../engine-codegen", features = ["handl-term"] }

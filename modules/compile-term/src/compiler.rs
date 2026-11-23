@@ -21,8 +21,8 @@ impl Compiler for TermCompiler {
             .downcast_ref::<TermConfig>()
             .ok_or_else(|| CompileError::InvalidInput("expected TermConfig".to_string()))?;
 
-        let term = lower_ast(&input.ast, &input.language, input.root)
-            .map_err(|e| CompileError::Lower(e))?;
+        let term =
+            lower_ast(&input.ast, &input.language, input.root).map_err(CompileError::Lower)?;
 
         let json = match cfg.emit.as_str() {
             "json" | "pretty" => serde_json::to_string_pretty(&term)

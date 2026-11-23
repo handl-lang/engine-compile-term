@@ -9,10 +9,10 @@ The crate lives in `modules/compile-term` inside this workspace.
 ## Development
 
 ```bash
-cargo xtask gate        # fmt --check → clippy -D warnings → test → doc
+cargo run --manifest-path xtask/Cargo.toml -- gate   # fmt → clippy → test → doc
 ```
 
-`cargo xtask` wraps the repo's `xtask/` crate (`fmt`, `clippy`, `test`, `doc`,
+`xtask/` provides the repo's `xtask/` crate (`fmt`, `clippy`, `test`, `doc`,
 `check`, `gate`); `ci.sh` is the gate entry. Deps resolve from git, so no
 sibling checkouts are needed; a plain clone test-runs as-is.
 

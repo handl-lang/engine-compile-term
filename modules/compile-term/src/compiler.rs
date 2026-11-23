@@ -2,7 +2,7 @@
 
 use handl_calculus::Term;
 use handl_plugin_compile::{CompileError, Compiler, CompilerConfig, CompilerInput, CompilerOutput};
-use hnl_engine_codegen::{ArtifactRef, Change, CodegenError, EmitContext, Emitter};
+use hnl_tool_codegen::{ArtifactRef, Change, CodegenError, EmitContext, Emitter};
 
 use crate::config::TermConfig;
 use crate::output::TermOutput;

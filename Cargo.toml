@@ -6,7 +6,7 @@ members = ["modules/compile-term"]
 version = "0.1.0"
 edition = "2024"
 license = "MIT"
-repository = "https://github.com/handl-lang/engine-compile-term"
+repository = "https://github.com/handl-lang/tool-compile-term"
 
 # ADR-0128 §Resolution: [patch] resolves the sibling checkout locally;
 # CI resolves the `branch = "main"` git deps (pinned to `rev` at release).
@@ -24,5 +24,5 @@ handl-calculus = { path = "../kernel/crates/handl-calculus" }
 handl-kit-arrow-lower = { path = "../host/crates/handl-kit-arrow-lower" }
 handl-plugin-compile = { path = "../host/crates/plugin-compile" }
 
-[patch."https://github.com/handl-lang/engine-codegen"]
-hnl-engine-codegen = { path = "../engine-codegen" }
+[patch."https://github.com/handl-lang/tool-codegen"]
+hnl-tool-codegen = { path = "../tool-codegen" }
